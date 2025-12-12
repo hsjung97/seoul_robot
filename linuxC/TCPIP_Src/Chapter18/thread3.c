@@ -21,8 +21,12 @@ int main(int argc, char *argv[])
 
 void * thread_summation(void * arg) 
 {
-	int start=((int*)arg)[0];
-	int end=((int*)arg)[1];
+//	int start=((int*)arg)[0];
+//	int end=((int*)arg)[1];
+	
+	int * prange = (int *)arg;
+	int start = prange[0];
+	int end = prange[1];
 
 	while(start<=end)
 	{
