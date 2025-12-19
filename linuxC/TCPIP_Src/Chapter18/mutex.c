@@ -8,8 +8,6 @@ void * thread_inc(void * arg);
 void * thread_des(void * arg);
 
 long long num=0;
-
-
 pthread_mutex_t mutex;
 
 int main(int argc, char *argv[]) 

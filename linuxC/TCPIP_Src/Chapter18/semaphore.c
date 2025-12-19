@@ -1,5 +1,3 @@
-//스레드의 실행순서를 제어
-
 #include <stdio.h>
 #include <pthread.h>
 #include <semaphore.h>
